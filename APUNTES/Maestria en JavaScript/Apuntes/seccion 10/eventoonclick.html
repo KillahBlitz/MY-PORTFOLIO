@@ -1,0 +1,23 @@
+<!--Manejo de dom, evento  onclick-->
+<!DOCTYPE <!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Manejo de DOM en HTML</title>
+        <meta name="description" content="">
+    </head>
+    <body>
+
+        <!--parametros dentro de la funcion, es decir this-->
+        <h1 onclick="cambiartexto(this)">manejo del dom</h1> 
+        
+        <script>//el script hace que cambie el titulo cuando presionas el titulo
+            function cambiartexto(titulo){//funcion declarada con el parametro 
+                titulo.innerHTML="nuevo titulo"; //accion al presionar
+            }
+        </script>
+    </body>
+</html>

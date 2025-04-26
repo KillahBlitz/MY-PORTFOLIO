@@ -1,0 +1,15 @@
+nombre|edad|ciudad
+Juan|28|Madrid
+Ana|22|Barcelona
+Pablo|28|Madrid
+Carlos|22|Barcelona
+Maria|28|Madrid
+Carla|22|Barcelona
+Juan|28|Madrid
+Marcos|22|Barcelona
+Jhon|28|Santiago
+Camila|22|Barcelona
+Enzo|28|Madrid
+Julian|22|Barcelona
+Tita|28|Lima
+Pepe|22|Bogota

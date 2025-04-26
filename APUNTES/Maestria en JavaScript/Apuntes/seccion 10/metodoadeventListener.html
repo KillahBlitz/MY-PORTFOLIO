@@ -1,0 +1,33 @@
+<!--evento addeventlistener es una forma de declarar eventos dentro de javascript-->
+<!DOCTYPE <!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Manejo de DOM en HTML</title>
+        <meta name="description" content="">
+    </head>
+
+
+    <body>
+        <input type="text"  id="nombre">
+
+        <script>
+            document.getElementById("nombre").addEventListener("focus", cambiar); //colocas el eventos y la funcion que se aplica
+            document.getElementById("nombre").addEventListener("blur", regresar);
+
+            function cambiar(evento){
+                let componente = evento.target;
+                componente.style.background="yellow";
+            }
+
+            function regresar(evento){
+                let componente = evento.target;
+                componente.style.background="cyan";
+            }
+        </script>
+
+    </body>
+</html>

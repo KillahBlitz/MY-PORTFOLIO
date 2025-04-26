@@ -1,0 +1,6 @@
+# Nota
+# Información de ejemplo
+nombre|edad|ciudad
+Andrés|29|Santander
+Clara|27|Murcia
+Eva|34|Córdoba

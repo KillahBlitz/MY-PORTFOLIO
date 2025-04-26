@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<!-- etiqueta par que encierra todo el documento html, lang es definicion del lenguaje que trabajamos -->
+<html lang="es">
+    <!-- HEADetiqueta par que define la cabecera del documento, contiene metadatos y enlaces a recursos externos -->
+    <head>
+        <!--etiquetas que lleva una cabecera-->
+        <!--META etiqueta que no necesta cierre, aniade informacion de la pagina-->
+        <!--se agregan ATRIBUTOS a las etiquetas, como el lenguaje que estamos trabajando en este caso-->
+        <meta charset="UTF-8"><!--etiqueta que no necesita cierre, atributo charset es idioma y UTF-8 es latino--> 
+        <meta name="author" content="Jacobo Monroy"><!--contenido del autor y autor de la pagina-->
+        <meta name="description" content="descripcion de la pagina para motores de busqueda"><!--descripcion de la pagina y contenido-->
+        <meta name="keywords" content="HTML, CSS, desarrollo web, killah"><!--palabras clave para motores de busqueda-->
+
+        <!--TITLE etiqueta compuesta y par que refiere al titulo de la pagina-->
+        <title>Pagina Web by Jacobo Monroy</title><!--titulo de la pagina que aparece en la pestaña del navegador-->
+
+        <!--LINK etiqueta compuesta y par que sirve para enlazar archivos externos, como CSS-->
+        <link rel="icon" href="img/icono.png"><!--referencia a un icono para la pagina-->
+    </head>
+    <!-- BODY etiqueta par donde se define todo lo que el usuario ve, se conoce como el cuerpo del sitio web -->
+    <body>
+        <!--etiquetas que lleva el cuerpo, son los elementos que lleva la pagina web-->
+        <!--etiqueta header que es compuesta y par, se utiliza para indicar que es la cabeza del sitio web-->
+        <header>
+            <!--DIV se usa para dividir elementos dentro de etiquetas especializadas-->
+            <div id="logotipo"><!--etiqueta de division-->
+                <img src="img/icono.png" alt="Logo de la pagina"><!--etiqueta de imagen, src es el atributo de la fuente y alt es el texto alternativo-->
+            </div><!--cierre de la etiqueta div-->
+            <div id="cabezote"><!--etiqueta de division-->
+                CABEZOTE
+            </div><!--cierre de la etiqueta div-->
+            <div id="titulo"><!--el atributo id se ocupa para css-->
+                <h1>Pagina Web by Jacobo Monroy</h1><!--etiqueta de encabezado-->
+                <p>Esta es una pagina web de ejemplo</p><!--etiqueta de parrafo-->
+            </div>
+        </header><!--es la cabecera del sitio web, es decir, la parte superior del sitio web-->
+        <!--NAV es la barra de navegacion del sitio web, es decir, la parte donde se encuentran los enlaces del sitio web-->
+        <nav>Barra de navegacion</nav>
+        <!--SECTION -->
+        <section><!--etiqueta de seccion, sirve para dividir el contenido del sitio web--> 
+            <h2>Seccion</h2><!--etiqueta de encabezado-->
+            <p>Esta es una seccion de ejemplo</p><!--etiqueta de parrafo-->
+        </section><!--cierre de la etiqueta section-->
+        <!--ASIDE es la barra lateral del sitio web, sirve para identificar columnas-->
+        <aside>columna</aside>
+        <!--ARTICLE etiqueta que se utiliza para indicar que es un articulo-->
+        <article>Articulo</article>
+        <!--HN para indicar titulos va desde h1 hasta h6, dependiendo el tamanio del titulo, donde 1 es el mas grande-->
+        <div class="titulos"><!--podemos clasificar texto con class para los estilos css-->
+            <h1>¡Hola, mundo!</h1>
+            <h2>¡Hola, mundo!</h2>
+            <h3>¡Hola, mundo!</h3>
+            <h4>¡Hola, mundo!</h4>
+            <h5>¡Hola, mundo!</h5>
+            <h6>¡Hola, mundo!</h6>
+        </div>
+        <!--P etiqueta de parrafo-->
+        <p>aqui escribimos un parrafo de <b>ejemplo</b> para demostrar la visualizacion de este mismo. <br>Aqui hacemos un salot de linea.</p>
+        <!--HR es una etiqueta de una linea divisora-->
+        <hr>
+        <!--A etiqueta para ser vinculos, que siempre lleva href de atributo para decir el vinculo-->
+        <a href="https://www.google.com">Google</a>
+        <!--FIGURE etiqueta auxiliar para las etiquetas img-->
+        <figure>
+            <!--IMG etiqueta simple para vincular imagenes al sitio web-->
+            <img src="img/imagen.jpg"><!--esta etiqueta lleva atributos varios para la imagen-->
+        </figure><!--cierre de la etiqueta figure-->
+        <figcaption><!--etiqueta de pie de figura-->
+            Esta es una imagen de ejemplo
+        </figcaption><!--cierre de la etiqueta figcaption-->
+
+        <!--OL etiqueta para almacenar un conjunto de istas-->
+        <ol><!--etiqueta de lista ordenada-->
+            <li>Elemento 1</li><!--etiqueta de elemento de lista-->
+            <li>Elemento 2</li>
+            <li>Elemento 3</li>
+        </ol>
+
+        <!--UL etiqueta para almacenar un conjunto de listas no numericas-->
+        <ul><!--etiqueta de lista no ordenada-->
+            <li>Elemento 1</li><!--etiqueta de elemento de lista-->
+            <li>Elemento 2</li>
+            <li>Elemento 3</li>
+        </ul>
+
+
+        <!--creacion para tablas-->
+        <table border="1"><!--etiqueta de tabla, border es un atributo para el formato de tabla-->
+            <thead><!--etiqueta de cabecera de tabla-->
+                <tr><!--etiqueta de fila-->
+                    <th>Dia</th><!--etiqueta de columna de tabla-->
+                    <th>Mes</th>
+                    <th>Anio</th>
+                </tr>
+            </thead><!--cierre de la etiqueta de cabecera de tabla-->
+
+            <tbody>
+                <tr><!--etiqueta de fila-->
+                    <th>01</th><!--etiqueta de columna de tabla-->
+                    <th>01</th>
+                    <th>2020</th>
+                </tr>
+                <tr><!--etiqueta de fila-->
+                    <th>01</th><!--etiqueta de columna de tabla-->
+                    <th>02</th>
+                    <th>2020</th>
+                </tr>
+                <tr><!--etiqueta de fila-->
+                    <th>10</th><!--etiqueta de columna de tabla-->
+                    <th>03</th>
+                    <th>2020</th>
+                </tr>
+            </tbody>
+        </table><!--cierre de la etiqueta de tabla-->
+        
+        <!--etiquetas para diferenciar valores numericos de algun resultado-->
+        <h1>Resultados del examen</h1>
+        <p>Carlos: <meter value="94" min="0" max="100" high="90"></p> <!--meter es una etiqueta que sirve para mostrar resultados numericos-->
+        <p>Andres: <meter value="60" min="0" max="100" high="90"></meter></p>
+        <p>Ana: <meter value="85" min="0" max="100" high="90"></meter></p>
+        <p>Pedro: <meter value="45" min="0" max="100" high="90"></meter></p>
+
+        <!--complemento de meter-->
+        <h2>Resultados de Ventas</h2>
+        <p>Enero: <progress value="94" min="0" max="100"></progress></p>
+        <p>Febrero: <progress value="60" min="0" max="100"></progress></p>
+        <p>Marzo: <progress value="85" min="0" max="100"></progress></p>
+        <p>abril: <progress value="54" min="0" max="100"></progress></p>
+        <!--algunos navegadores no leen meter, por eso complementamos con progress-->
+
+        <!--Etiquetas de multimedia-->
+        <!--etiqueta de audio-->
+        <audio autoplay controls preload="auto">
+            <!--extensiones que se pueden usar-->
+            <!--.ogg .mp3 .wav .m4a .m4b .m4p .mp4 .acc-->
+            <source src="audio/audio.mp3" type="audio/mp3"><!--etiqueta de fuente, src es el atributo de la fuente y type es el tipo de audio-->
+            <source src="audio/audio.m4a" type="audio/mp4">
+            <source src="audio/audio.ogg" type="audio/ogg">
+        </audio><!--el atributo autoplay significa que se reproducira automaticamente, controls los controles y loop que se repita, valores booleanos-->
+
+        <!--etiqueta de video-->
+        <video autoplay controls loop preload="auto" width="500" height="500"><!--etiqueta de video, autoplay significa que se reproducira automaticamente, controls los controles y loop que se repita, valores booleanos-->
+            <!--extensiones que se pueden usar-->
+            <!--.ogg .mp4 .webm-->
+            <source src="video/video.mp4" type="video/mp4"><!--etiqueta de fuente, src es el atributo de la fuente y type es el tipo de video-->
+            <source src="video/video.webm" type="video/webm">
+            <source src="video/video.ogg" type="video/ogg">
+        </video><!--cierre de la etiqueta de video-->
+
+        <!--IFRAME Etiqueta que nos sirve para etiquetar archivos multimedia de la web entre otros archivos-->
+
+        <iframe src="https://www.youtube.com/embed/ccj08bHaGDU" width="500" height="280" frameborder="0" allowfullscreen></iframe><!--etiqueta de iframe, src es el atributo de la fuente y width y height son el tamanio del iframe-->
+        <iframe src="//v.calameo.com/?bkcode=003201601182912bb2068" width="500" height="200" frameborder="0" allowfullscreen"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3764.897011772747!2d-99.11478672518659!3d19.330274781927343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce01fa0061f63d%3A0x975d53197f980848!2sESIME%20-%20Escuela%20Superior%20de%20Ingenier%C3%ADa%20Mec%C3%A1nica%20y%20El%C3%A9ctrica%20Unidad%20Culhuac%C3%A1n!5e0!3m2!1ses!2smx!4v1745183994772!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+        <!--etiquetas de formulario-->
+        <center><!--CENTER es una etiqueta que centra el contenido-->
+            <h3>FORMULARIOS</h3>
+            <form>;<!--etiqueta de formulario, action es el atributo que indica la accion que se realizara al enviar el formulario y method es el metodo que se usara para enviar el formulario-->
+                <label for="texto">Nombre:</label><!--etiqueta de etiqueta, for es el atributo que indica el nombre del campo-->
+                <input id="texto" type="text" placeholder="Nombre" value="" required><!--etiqueta de entrada de texto, type es el tipo de entrada, name es el nombre del campo y placeholder es el texto que aparece en la entrada-->
+                <br><br>
+                <label for="correo">correo:</label>
+                <input id="correo" type="email" placeholder="Correo Electronico" value="" required>
+                <br><br>
+                <label for="pass">contraseña:</label>
+                <input id="pass" type="password" placeholder="contraseña" value="" required><!--etiqueta de entrada de contraseña, type es el tipo de entrada, name es el nombre del campo y placeholder es el texto que aparece en la entrada-->
+                <br><br>
+                <input type="number" value="0" min="0" max="100"><!--etiqueta de entrada de numero, type es el tipo de entrada, name es el nombre del campo y value es el valor por defecto-->
+                <br><br>
+                <select><!--selector de opciones-->
+                    <option>ESIME CULHUACAN</option><!--opcion a escojer-->
+                    <option>UPIICSA</option>
+                    <option>ESCA TEPEPAN</option>
+                </select>
+                <br><br>
+                <input type="checkbox" id="rojo"><label for="rojo">Rojo</label><!--etiqueta de casilla de verificacion, type es el tipo de entrada-->
+                <input type="checkbox" id="verde"><label for="verde">verde</label>
+                <input type="checkbox" id="azul"><label for="azul">azul</label>
+                <br><br>
+                <input type="radio" id="blanco" name="radio"><label for="blanco">Blanco</label><!--etiqueta de radio, type es el tipo de entrada-->
+                <input type="radio" id="negro" name="radio"><label for="negro">Negro</label>
+                <input type="radio" id="gris" name="radio"><label for="gris">Gris</label>
+                <br><br>
+
+                <!--para que los camos sean forsozamente llenados, se ocupa el atributo required-->
+                <input type="submit" value="enviar">
+            </form>
+        </center>
+        
+        <!--pie de pagina donde se suelen guardar los derechos y creditos de la pagina-->
+        <footer><!--etiqueta de pie de pagina-->
+            <p>Derechos reservados por killahblitz</p><!--etiqueta de parrafo-->
+        </footer>
+    </body>
+</html>

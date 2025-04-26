@@ -1,0 +1,38 @@
+<!--cambiar de valor de atributos HTML con javascript-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Documento de pruebas DOC</title>
+        <meta name="description" content="">
+    </head>
+    <body>
+        <header>
+            <h1>Hello world</h1>
+        </header>
+
+        <h1 id="titulo">Este es el titulo Principal.</h1>
+   
+        <button onclick="mostrar()">mostrar</button>
+   
+        <!--cambiar de atributos una imagen, es decir, el source-->
+        <img id="Imagen" src="img01.jpg" width="255" height="255">
+
+        <script> //declaracion de el script
+            let valorbooleano = true; //declaro una variable booleana
+            function mostrar(){//declaracion de mi funcion
+                if(valorbooleano){//si valor booleano es verdadero, muestra la imagen 2
+                    document.getElementById("Imagen").src = "img02.jpg";
+                    valorbooleano = false;//cambia de valor valorbooleano
+                }
+                else{//si valor boleano es falso, cambia a la imagen 1
+                    document.getElementById("Imagen").src = "img01.jpg";
+                    valorbooleano = true;//cambia de valor valorbooleano
+                }
+                
+            }
+        </script>
+    </body>
+</html>

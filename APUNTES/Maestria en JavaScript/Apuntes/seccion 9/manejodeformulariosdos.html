@@ -1,0 +1,40 @@
+<!--Manejo de Formularios desde HTML con javascript, acceder a los elementos del formulario de otra formas-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Documento de pruebas DOC</title>
+        <meta name="description" content="">
+    </head>
+    <body>
+        <header>
+            <h1>Hello world</h1>
+        </header>
+
+        <!--dise;o del formulario con sus contenidos-->
+        <form id="formulario">
+            <input type="text" name="nombre" value="luis">
+            <br>
+            <input type="text" name="apellido" value="lara">
+        </form>
+
+        <button onclick="mostrarValores()">mostrar</button>
+
+        <div id="valores"></div>
+
+        <script>
+            function mostrarValores(){
+                let formulario = document.forms['formulario'];
+                let texto = "";
+                let nombre = formulario['nombre']; //acceder por indice de array
+                let apellido = formulario['apellido']; //acceder al apellido
+
+                texto = nombre.value + " " + apellido.value; //tener cuidado y usar el .value
+
+                document.getElementById("valores").innerHTML = texto;
+            }
+        </script>
+    </body>
+</html>

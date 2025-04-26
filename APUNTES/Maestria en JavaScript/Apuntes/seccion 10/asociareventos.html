@@ -1,0 +1,30 @@
+<!--asociar eventos del html-->
+<!DOCTYPE <!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Manejo de DOM en HTML</title>
+        <meta name="description" content="">
+    </head>
+    <body>
+
+        <!--parametros dentro de la funcion, es decir this-->
+        <h1 id="titulo">manejo del dom</h1> 
+        <br>
+        <div id="mostrar"></div>
+        
+        <script>//codigo script
+
+            //asociacion del evento desde adentro del script
+            document.getElementById("titulo").onclick = cambiartexto;
+
+            function cambiartexto(titulo){//funcion declarada con el parametro 
+                document.getElementById("mostrar").innerHTML="nuevo contenido !!!!!"; //accion al presionar
+            }
+
+        </script>
+    </body>
+</html>

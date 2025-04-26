@@ -1,0 +1,11 @@
+ID,Nombre,Edad,Ciudad,Salario
+1,Juan,30,Madrid,3000.0
+2,Ana,22.0,Barcelona,3200.0
+3,Luis,35.0,Valencia,3500.0
+4,María,29.0,Sevilla,4000.0
+5,Carlos,,Madrid,3200.0
+6,Laura,30.0,Madrid,
+7,Pedro,20,Valencia,3700.0
+8,,22.0,Valencia,3400.0
+9,Lucía,,,3600.0
+10,Hugo,25.0,Sevilla,

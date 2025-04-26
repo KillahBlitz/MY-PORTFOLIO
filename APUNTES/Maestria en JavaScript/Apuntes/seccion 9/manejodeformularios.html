@@ -1,0 +1,42 @@
+<!--Manejo de Formularios desde HTML con javascript-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Documento de pruebas DOC</title>
+        <meta name="description" content="">
+    </head>
+    <body>
+        <header>
+            <h1>Hello world</h1>
+        </header>
+
+        <!--dise;o del formulario con sus contenidos-->
+        <form id="formulario">
+            <input type="text" name="nombre" value="luis">
+            <br>
+            <input type="text" name="apellido" value="lara">
+        </form>
+
+        <!--aqui hacemos la creacion de un evento, donde al pulsar el boton mostrar, hace la funcion mostrarValores()-->
+        <button onclick="mostrarValores()">mostrar</button>
+
+        <!--aqui vamos a colocar el texto despues de presionar mostrar-->
+        <div id="valores"></div>
+
+        <script> //aqui definimos el script en javascript
+            function mostrarValores(){//declaramos la funcion
+                let formulario = document.forms['formulario']; //recuperamos los datos del formulario
+                let texto = ""; //variable vacia donde pegaremos el texto del formulario
+
+                for(let elemento of formulario){ //un forms donde recorremos los elementos del forms y los concatenamos 
+                    texto += elemento.value + '<br>';
+                }
+                //pegamos el texto recuperando en el div con id valores
+                document.getElementById("valores").innerHTML = texto;
+            }
+        </script>
+    </body>
+</html>

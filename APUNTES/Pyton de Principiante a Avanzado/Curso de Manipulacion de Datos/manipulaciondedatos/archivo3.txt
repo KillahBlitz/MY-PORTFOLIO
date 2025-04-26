@@ -1,0 +1,7 @@
+# Información no relevante
+# Más información
+# innecesaria
+nombre	edad	ciudad
+Pedro	50	Zaragoza
+Lucía	45	Málaga
+Hugo	33	Granada

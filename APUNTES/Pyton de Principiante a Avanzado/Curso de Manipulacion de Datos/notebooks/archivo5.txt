@@ -1,0 +1,6 @@
+# Línea no relevante
+# Otra línea no relevante
+nombre;;edad;;ciudad
+Laura;;38;;Oviedo
+Marta;;31;;Pamplona
+Sergio;;29;;Salamanca

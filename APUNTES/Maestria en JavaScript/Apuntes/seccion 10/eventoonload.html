@@ -1,0 +1,36 @@
+<!--eventos de onload-->
+<!--cuando la pagina se carga, se dispara el evento onload-->
+<!DOCTYPE <!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Manejo de DOM en HTML</title>
+        <meta name="description" content="">
+    </head>
+    <!--aqui cuando se inicia la pagina hace el onload llama la funcion funcion()-->
+    <body onload="funcion()">
+        <h1 id="titulo">manejo del dom</h1> 
+        <br>
+        <div id="mostrar"></div>
+        
+        <script>//codigo script
+        function funcion(){
+            alert("haz entrado a la pagina");
+            let texto = "";
+
+            //preguntar si las cookies estan activas
+            if(navigator.cookieEnabled){
+                texto = "las cookies estan activadas";
+            }
+            else{
+                texto = "las cookies estan desactivadas";
+            }
+
+            document.getElementById("mostrar").innerHTML = texto;
+        }
+        </script>
+    </body>
+</html>

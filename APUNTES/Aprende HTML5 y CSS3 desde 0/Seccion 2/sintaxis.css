@@ -1,0 +1,255 @@
+            /*formatear los valores por defecto con el selector universal*/
+            *{
+                margin: 0;
+                padding: 0;
+                list-style: none;  /*eliminar los puntos de la lista*/
+                font-family: sans-serif; /*fuente por defecto*/
+            }
+
+            #chat{ /*seleccion por id*/
+                position: fixed; /*posicionamiento fijo*/
+                bottom: 0; /*para que el elemento quede fijo en la parte inferior de la pantalla*/
+                right: 0; /*para que el elemento quede fijo en la parte derecha de la pantalla*/
+                width: 200px;
+                height: 40px;
+                background: #444; /*color de fondo del elemento*/
+                z-index: 1; /*para que el elemento quede por encima de los demas elementos*/
+                color: white;
+                font-size: 20px; /*tamaño de la fuente*/
+                text-align: center; /*alinear el texto al centro*/
+                line-height: 40px; /*alinear el texto verticalmente*/
+            }
+
+            header{ /*seleccion por etiqueta, especificamente por seccion*/
+                position: relative; /*posicionamiento relativo*/
+                margin: 20px auto; /*centrar el header hacia los lados y 20px en vertical, pero se puede cambiar por parametros en px, donde el primero la parte suoerior y el segundo respecto a la derecha*/
+                width: 1000px;
+                height: 120px;
+                background: #444; /*color de fondo del header*/
+            }
+
+            /*cajas internas que estan dentro de cada una de las secciones, de acuerdo a la buena practica, van en flija de acuerdo a su caja principal*/
+            #logo{ /*seleccion por id*/
+                position: absolute; /*posicionamiento absoluto*/
+                top: 30px; 
+                left: 30px;
+                width: 200px;
+                height: 60px;
+                background: gray; /*color de fondo del logo*/
+                font-size: 38px; /*tamaño de la fuente*/
+                text-align: center; /*alinear el texto al centro*/
+                line-height: 60px; /*alinear el texto verticalmente*/
+                color: white;
+            }
+
+            .redes{ /*seleccion por clase*/
+                position: absolute;
+                width: 42px;
+                height: 42px;
+                border-radius: 100%; /*para que el icono sea redondo*/
+                background: #ccc; /*color de fondo de los iconos*/
+            }
+
+            #icono1{
+                top: 42px;
+                right: 120px;
+                text-align: center; /*alinear el texto al centro*/
+                line-height: 42px; /*alinear el texto verticalmente*/
+                color: white; /*color del texto*/
+                background: #E1306C; /*color de fondo del icono*/
+            }
+
+            #icono2{
+                top: 42px;
+                right: 70px;
+                text-align: center;
+                line-height: 42px;
+                color: white; /*color del texto*/
+                background: blue;
+            }
+            
+            #icono3{
+                top: 42px;
+                right: 20px;
+                text-align: center;
+                line-height: 42px;
+                color: white; /*color del texto*/
+                background: #181717;
+            }
+
+            /*cajas principales que contienen las cajas internas*/
+            nav{
+                position: relative;
+                margin: auto; /*para el margen se puede configurar por pixeles siguiendo el patron de arriba, derecha, abajo, izquierda, tambien se puede como vertical horizontal*/
+                width: 1000px;
+                height: 48px;
+            }
+
+            .botones{
+                float: left;/* La propiedad `float` posiciona un elemento a la izquierda o derecha, permitiendo que el contenido fluya a su alrededor. Valores: left, right, none, inherit. */
+                width: 196px;
+                height: 48px;
+                background: gray; /*color de fondo de los botones*/ 
+                margin: 2px; /*margen entre los botones*/
+                color: rgb(255, 255, 255); /*color del texto*/
+                text-align: center; /*alinear el texto al centro*/
+                line-height: 48px; /*alinear el texto verticalmente*/
+            }
+
+            a .botones:hover{ /*seleccion por ruta y pseudo clase*/
+                background: white;
+                color: black; /*color del texto*/
+                border: #181717 2px solid; /*borde del elemento*/
+              box-sizing: border-box; /*para que el borde no afecte el tamaño del elemento*/
+            }
+            
+            a .botones:active{ /*seleccion por ruta y pseudo clase*/
+                background: #181717; /*color de fondo del elemento*/
+                color: white; /*color del texto*/
+                border: #181717 2px solid; /*borde del elemento*/
+              box-sizing: border-box; /*para que el borde no afecte el tamaño del elemento*/
+            }
+
+            #top{
+                position: relative;
+                margin: 20px auto;
+                width: 1000px;
+                height: 192px;
+            }
+
+            #top ul{ /*trampa visual para posicionar correctamente cajas*/
+                width: 1010px;
+                height: 192px;
+            }
+
+            /*seleccion por rutas*/
+            #top ul li{ /*se aplica para todos que tengan la misma ruta*/
+                float: left; /*para que los elementos se alineen a la izquierda*/
+                width: 326px;
+                height: 192px;
+                background: #333; /*color de fondo de los elementos*/
+                margin-right: 10px; /*margen entre los elementos*/
+                text-align: center;
+                color: white; /*color del texto*/
+            }
+
+            #top ul li img{ /*seleccion por ruta*/
+                border: #ffffff 5px solid; /*borde de la imagen*/
+                margin: 4px;
+            }
+
+            section{
+                position: relative;
+                margin: auto;
+                width: 1000px;
+                height: 453px;
+                background: #aaa;
+            }
+
+            aside#izq{ /*seleccion por id*/
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 200px;
+                height: 453px;
+                background: #aaa; /*color de fondo del elemento*/
+            }
+
+            aside#izq h1{ /*seleccion por id*/
+                font-family: 'Kaushan Script', cursive; /*fuente del texto*/
+                color: black; /*color del texto*/
+                text-align: center; /*alinear el texto al centro*/
+                line-height: 48px; /*alinear el texto verticalmente*/
+            }
+
+            .botoncat{ /*seleccion por id*/
+                text-decoration: none;
+                color: white;
+                background: #181717;
+                text-align: center;
+                margin: 2px 10px; /*margen entre los elementos*/
+                padding: 10px; /*relleno entre los elementos*/
+                list-style: none; /*eliminar los puntos de la lista*/
+                list-style-position: inside; /*para que los puntos de la lista esten dentro del elemento*/
+                list-style-image: none; /*para que no haya imagenes en la lista*/
+            }
+
+            a .botoncat:hover{ /*seleccion por ruta y pseudo clase*/
+                text-decoration: none; /*para que no aparezca una línea debajo del texto*/
+                background: white;
+                color: black; /*color del texto*/
+                border: #181717 2px solid; /*borde del elemento*/
+              box-sizing: border-box; /*para que el borde no afecte el tamaño del elemento*/
+            }
+            
+            a .botoncat:active{ /*seleccion por ruta y pseudo clase*/
+                text-decoration: none;
+                background: #181717; /*color de fondo del elemento*/
+                color: white; /*color del texto*/
+                border: #181717 2px solid; /*borde del elemento*/
+              box-sizing: border-box; /*para que el borde no afecte el tamaño del elemento*/
+            }
+
+            aside#der{ /*seleccion por id*/
+                position: absolute;
+                right: 0;
+                top: 0;
+                width: 200px;
+                height: 453px;
+                background: #aaa; /*color de fondo del elemento*/
+            }
+
+            #tituloder{ /*seleccion por id*/
+                font-family: 'Kaushan Script', cursive; /*fuente del texto*/
+                color: black; /*color del texto*/
+                text-align: center; /*alinear el texto al centro*/
+            }
+
+            #ingresoder{
+                color: black; /*color del texto*/
+                text-align: center; /*alinear el texto al centro*/
+                font-size: 20px; /*tamaño de la fuente*/
+                margin: 10px; /*margen entre los elementos*/
+            }
+
+            aside#der form input{ /*seleccion por ruta*/
+                padding: 10px;
+                margin: 2px 5px; /*margen entre los elementos*/
+            }
+
+            aside#der form input[type="submit"]{ /*seleccionar por tipo dentro de la ruta*/
+                background: #444; /*color de fondo del elemento*/
+                color: white; /*color del texto*/
+                font-size: 20px; /*tamaño de la fuente*/
+                border-radius: 5px; /*bordes redondeados*/
+                margin: 10px 51px;
+            }
+
+            article{
+                position: absolute;
+                left: 200px;
+                top: 0;
+                width: 600px;
+                height: 453px;
+                background: #333; /*color de fondo del elemento*/
+            }
+
+            article h2{
+                font-family: 'Kaushan Script', cursive; /*fuente del texto*/
+                color: white; /*color del texto*/
+                text-align: center; /*alinear el texto al centro*/
+                line-height: 48px; /*alinear el texto verticalmente*/
+            }
+
+
+            footer{
+                position: relative;
+                margin: 20px auto;
+                width: 1000px;
+                height: 70px;
+                background: #444;
+                color: white;
+                font-size: 20px;
+                text-align: center;
+                line-height: 70px; /*alinear el texto verticalmente*/
+            }

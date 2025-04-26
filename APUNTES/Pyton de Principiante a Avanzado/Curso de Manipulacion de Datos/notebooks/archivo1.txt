@@ -1,0 +1,6 @@
+# Este es un comentario
+# Otra línea de comentario
+nombre,edad,ciudad
+Juan,28,Madrid
+Ana,22,Barcelona
+Luis,35,Valencia

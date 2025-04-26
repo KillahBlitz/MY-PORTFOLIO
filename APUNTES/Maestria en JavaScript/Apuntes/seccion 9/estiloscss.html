@@ -1,0 +1,28 @@
+<!--Cambios de estilo en css usando javascript-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Documento de pruebas DOC</title>
+        <meta name="description" content="">
+    </head>
+    <body>
+        <header>
+            <h1>Hello world</h1>
+        </header>
+
+        <!--declaracion del titulo que se va a cambiar-->
+        <h1 id="titulo">Este es el titulo Principal.</h1>
+        <!--declaracion del boton que ejecuta la accion--> 
+        <button onclick="mostrar()">mostrar</button>
+
+        <script>//declaracion del script
+            function mostrar(){//declaracion de la funcion
+                document.getElementById('titulo').style.color = 'red';
+                //notese que accedemos al elemento por id, luego a su tipo de estilo para que al ultimo configuremos su atributo color
+            }
+        </script>
+    </body>
+</html>

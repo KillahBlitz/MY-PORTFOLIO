@@ -1,0 +1,32 @@
+<!--eventos onmousedown y onmouseup-->
+<!--onmousedown se activa cuando se presiona el elemento y onmouseup se activa cuando se suelta el click del elemento-->
+<!DOCTYPE <!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Manejo de DOM en HTML</title>
+        <meta name="description" content="">
+    </head>
+
+
+    <body>
+        <h1 id="titulo" onmousedown= "rojo(this)" onmouseup="azul(this)">probando eventos de titulos </h1> 
+        <br>
+        <p id="seleccionado"></p>
+
+        <script>//codigo script
+        //funcion que cambia de color el titulo si se pone por encima el mouse
+        function rojo(titulo){//declaracion de la funcion
+            titulo.style.color = 'red';
+        }
+
+        //funcion que cambia de color el titulo si se quita de encima el mouse
+        function azul(titulo){//declaracion de la funcion
+            titulo.style.color = 'blue';
+        }
+        </script>
+    </body>
+</html>
