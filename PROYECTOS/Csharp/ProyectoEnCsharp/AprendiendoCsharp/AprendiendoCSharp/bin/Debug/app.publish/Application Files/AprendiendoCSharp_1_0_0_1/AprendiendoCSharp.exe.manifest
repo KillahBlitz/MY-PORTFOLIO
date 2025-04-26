@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="AprendiendoCSharp.exe" version="1.0.0.1" publicKeyToken="84dfbf9b5b43b50d" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="AprendiendoCSharp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="AprendiendoCSharp.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opciones del manifiesto de Control de cuentas de usuario
+          Si quiere cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el
+          nodo requestedExecutionLevel por alguno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si desea usar la virtualización de archivos y del Registro para la
+         compatibilidad con versiones anteriores, elimine el nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AprendiendoCSharp.exe" size="400816">
+      <assemblyIdentity name="AprendiendoCSharp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>0IFUnnwUF3Qh4IcBcwuwvVV4K0JMIeTHnj6RQwl+Q3Y=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="AprendiendoCSharp.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DEWKAT\Akeshi" issuerKeyHash="614fc7807734490c2bd854cf9eca902ca89c6204" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>62PuQIpj3FSzso8YG8ZdH9VNtLEH8BD6WakhTzRFnxM=</DigestValue></Reference></SignedInfo><SignatureValue>dehXnymNuKNb3bU6dcNm63ELsOsjIImFKxse2nC3+t9rBHjvdHbH1wjgpqAF7JlQTqGj04B6s0+o950hUNIDGVjlf6MF7s0Vsw9xu9DBBJCT0g4ciGeM4P5CIkSUDF5QLCiowaPbiw+dBZpaO5Zc0x1D8U5yfD7U5iJwYZM4IKQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>xE9MNN/ZwW6WOOCQgII8vhfKraVOOY4w/p5htrbaOjTk41XgK0l+qmtMJzDOnLkKXMbdNsZYIQCARz69jSl2FGuEPv0XsfFW6pHyoS1VR5RdjvLQeyuqBiBzlLPbv4MRj+7+sBfto3463p7CuvKTVQY3/XGhGHQp/ODg7df7txU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="139f45344f21a959fa10f007b1b44dd51f5dc61b188fb2b354dc638a40ee63eb" Description="" Url=""><as:assemblyIdentity name="AprendiendoCSharp.exe" version="1.0.0.1" publicKeyToken="84dfbf9b5b43b50d" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DEWKAT\Akeshi</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>0Yjpm09zenTRqWwVLOf5uG9mrooYNcVIaUl3cCoP/5o=</DigestValue></Reference></SignedInfo><SignatureValue>Z5gwoZ4TTnOjyiFhzBGXtwqVASQu4mxRPeQY8aduFJMJn1Tpo/OX3FMSuE7V6gxsJRlLKNDx1lh98fkdPxBxQHmaLzFi9VdNG8GDzmwoQsUMZA2BWXZ1hv33VWu+HeadiMfu5VCO6RJfikAD9xP2spfUnrISHNKw1ThjvX8Ywzg=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>xE9MNN/ZwW6WOOCQgII8vhfKraVOOY4w/p5htrbaOjTk41XgK0l+qmtMJzDOnLkKXMbdNsZYIQCARz69jSl2FGuEPv0XsfFW6pHyoS1VR5RdjvLQeyuqBiBzlLPbv4MRj+7+sBfto3463p7CuvKTVQY3/XGhGHQp/ODg7df7txU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBzTCCATagAwIBAgIQG3oeDC7k2JRHLUlpGb1zFjANBgkqhkiG9w0BAQsFADAlMSMwIQYDVQQDHhoARABFAFcASwBBAFQAXABBAGsAZQBzAGgAaTAeFw0yNDA0MDMwMDU3NThaFw0yNTA0MDMwNjU3NThaMCUxIzAhBgNVBAMeGgBEAEUAVwBLAEEAVABcAEEAawBlAHMAaABpMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDET0w039nBbpY44JCAgjy+F8qtpU45jjD+nmG2tto6NOTjVeArSX6qa0wnMM6cuQpcxt02xlghAIBHPr2NKXYUa4Q+/Rex8VbqkfKhLVVHlF2O8tB7K6oGIHOUs9u/gxGP7v6wF+2jfjrensK68pNVBjf9caEYdCn84ODt1/u3FQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAGGdi6SvH5Z32cw3NLp43H+dLpnK1PHzQoj+RQV0u4IFgQfm/7lbT/UYEljrOp8AN1t3Ezcp8U5PzBBrtKfA5hAX8te7ZLkBoFy71mDGSBlMGboyjfhsG1AcJ4o5EbiBWKx+eh34GTAhbr3o6ibZynWZ9aDOqF9xDX0Ab7O1RQ2A</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

@@ -1,0 +1,12 @@
+Program Nombre ;
+
+Var
+int x , y , b ;
+float z , n , m ;
+
+Begin
+x = 0 , y = 0 , z = 0.0 , b = 0 , n = 0.0 , m = 0.0 ;
+
+m = ( ( ( y * 9 ) / x + ( z * 3 ) ) - n * 5 ) - 1 ;
+
+End ;

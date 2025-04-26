@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Windows 64\\Descargas\\Recuperacion de elementos para github\\Codigos propios\\Programas 2024\\COMPILADOR\\COMPILADOR 4.02\\COMPILADOR\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{262991BD-8140-4489-BC09-BDA2DB44CDE5}|COMPILADOR\\COMPILADOR.csproj|d:\\windows 64\\descargas\\recuperacion de elementos para github\\codigos propios\\programas 2024\\compilador\\compilador 4.02\\compilador\\compilador\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{262991BD-8140-4489-BC09-BDA2DB44CDE5}|COMPILADOR\\COMPILADOR.csproj|solutionrelative:compilador\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{262991BD-8140-4489-BC09-BDA2DB44CDE5}|COMPILADOR\\COMPILADOR.csproj|D:\\Windows 64\\Descargas\\Recuperacion de elementos para github\\Codigos propios\\Programas 2024\\COMPILADOR\\COMPILADOR 4.02\\COMPILADOR\\compilador\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{262991BD-8140-4489-BC09-BDA2DB44CDE5}|COMPILADOR\\COMPILADOR.csproj|solutionrelative:compilador\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{262991BD-8140-4489-BC09-BDA2DB44CDE5}|COMPILADOR\\COMPILADOR.csproj|D:\\Windows 64\\Descargas\\Recuperacion de elementos para github\\Codigos propios\\Programas 2024\\COMPILADOR\\COMPILADOR 4.02\\COMPILADOR\\compilador\\usrcip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{262991BD-8140-4489-BC09-BDA2DB44CDE5}|COMPILADOR\\COMPILADOR.csproj|solutionrelative:compilador\\usrcip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{262991BD-8140-4489-BC09-BDA2DB44CDE5}|COMPILADOR\\COMPILADOR.csproj|D:\\Windows 64\\Descargas\\Recuperacion de elementos para github\\Codigos propios\\Programas 2024\\COMPILADOR\\COMPILADOR 4.02\\COMPILADOR\\compilador\\usral.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{262991BD-8140-4489-BC09-BDA2DB44CDE5}|COMPILADOR\\COMPILADOR.csproj|solutionrelative:compilador\\usral.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{262991BD-8140-4489-BC09-BDA2DB44CDE5}|COMPILADOR\\COMPILADOR.csproj|D:\\Windows 64\\Descargas\\Recuperacion de elementos para github\\Codigos propios\\Programas 2024\\COMPILADOR\\COMPILADOR 4.02\\COMPILADOR\\compilador\\usram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{262991BD-8140-4489-BC09-BDA2DB44CDE5}|COMPILADOR\\COMPILADOR.csproj|solutionrelative:compilador\\usram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{262991BD-8140-4489-BC09-BDA2DB44CDE5}|COMPILADOR\\COMPILADOR.csproj|D:\\Windows 64\\Descargas\\Recuperacion de elementos para github\\Codigos propios\\Programas 2024\\COMPILADOR\\COMPILADOR 4.02\\COMPILADOR\\compilador\\usras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{262991BD-8140-4489-BC09-BDA2DB44CDE5}|COMPILADOR\\COMPILADOR.csproj|solutionrelative:compilador\\usras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Readme.txt",
+              "DocumentMoniker": "D:\\Windows 64\\Descargas\\Recuperacion de elementos para github\\Codigos propios\\Programas 2024\\COMPILADOR\\COMPILADOR 4.02\\COMPILADOR\\COMPILADOR\\Readme.txt",
+              "RelativeDocumentMoniker": "COMPILADOR\\Readme.txt",
+              "ToolTip": "D:\\Windows 64\\Descargas\\Recuperacion de elementos para github\\Codigos propios\\Programas 2024\\COMPILADOR\\COMPILADOR 4.02\\COMPILADOR\\COMPILADOR\\Readme.txt",
+              "RelativeToolTip": "COMPILADOR\\Readme.txt",
+              "ViewState": "AQIAABkAAAAAAAAAAAAmwEAAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-06-24T07:43:21.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\Windows 64\\Descargas\\Recuperacion de elementos para github\\Codigos propios\\Programas 2024\\COMPILADOR\\COMPILADOR 4.02\\COMPILADOR\\COMPILADOR\\Form1.cs",
+              "RelativeDocumentMoniker": "COMPILADOR\\Form1.cs",
+              "ToolTip": "D:\\Windows 64\\Descargas\\Recuperacion de elementos para github\\Codigos propios\\Programas 2024\\COMPILADOR\\COMPILADOR 4.02\\COMPILADOR\\COMPILADOR\\Form1.cs",
+              "RelativeToolTip": "COMPILADOR\\Form1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAANIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T22:45:13.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "usrAL.cs",
+              "DocumentMoniker": "D:\\Windows 64\\Descargas\\Recuperacion de elementos para github\\Codigos propios\\Programas 2024\\COMPILADOR\\COMPILADOR 4.02\\COMPILADOR\\COMPILADOR\\usrAL.cs",
+              "RelativeDocumentMoniker": "COMPILADOR\\usrAL.cs",
+              "ToolTip": "D:\\Windows 64\\Descargas\\Recuperacion de elementos para github\\Codigos propios\\Programas 2024\\COMPILADOR\\COMPILADOR 4.02\\COMPILADOR\\COMPILADOR\\usrAL.cs",
+              "RelativeToolTip": "COMPILADOR\\usrAL.cs",
+              "ViewState": "AQIAAJoAAAAAAAAAAADwv28CAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T22:44:45.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "usrAS.cs",
+              "DocumentMoniker": "D:\\Windows 64\\Descargas\\Recuperacion de elementos para github\\Codigos propios\\Programas 2024\\COMPILADOR\\COMPILADOR 4.02\\COMPILADOR\\COMPILADOR\\usrAS.cs",
+              "RelativeDocumentMoniker": "COMPILADOR\\usrAS.cs",
+              "ToolTip": "D:\\Windows 64\\Descargas\\Recuperacion de elementos para github\\Codigos propios\\Programas 2024\\COMPILADOR\\COMPILADOR 4.02\\COMPILADOR\\COMPILADOR\\usrAS.cs",
+              "RelativeToolTip": "COMPILADOR\\usrAS.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwCEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T21:19:49.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "usrAM.cs",
+              "DocumentMoniker": "D:\\Windows 64\\Descargas\\Recuperacion de elementos para github\\Codigos propios\\Programas 2024\\COMPILADOR\\COMPILADOR 4.02\\COMPILADOR\\COMPILADOR\\usrAM.cs",
+              "RelativeDocumentMoniker": "COMPILADOR\\usrAM.cs",
+              "ToolTip": "D:\\Windows 64\\Descargas\\Recuperacion de elementos para github\\Codigos propios\\Programas 2024\\COMPILADOR\\COMPILADOR 4.02\\COMPILADOR\\COMPILADOR\\usrAM.cs",
+              "RelativeToolTip": "COMPILADOR\\usrAM.cs",
+              "ViewState": "AQIAAC8BAAAAAAAAAAAAAMkAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T21:18:50.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "usrCIP.cs",
+              "DocumentMoniker": "D:\\Windows 64\\Descargas\\Recuperacion de elementos para github\\Codigos propios\\Programas 2024\\COMPILADOR\\COMPILADOR 4.02\\COMPILADOR\\COMPILADOR\\usrCIP.cs",
+              "RelativeDocumentMoniker": "COMPILADOR\\usrCIP.cs",
+              "ToolTip": "D:\\Windows 64\\Descargas\\Recuperacion de elementos para github\\Codigos propios\\Programas 2024\\COMPILADOR\\COMPILADOR 4.02\\COMPILADOR\\COMPILADOR\\usrCIP.cs",
+              "RelativeToolTip": "COMPILADOR\\usrCIP.cs",
+              "ViewState": "AQIAALkCAAAAAAAAAAAiwN8CAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T21:54:45.032Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
