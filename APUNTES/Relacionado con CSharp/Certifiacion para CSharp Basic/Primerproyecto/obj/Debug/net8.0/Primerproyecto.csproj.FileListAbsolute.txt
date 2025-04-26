@@ -1,0 +1,14 @@
+D:\Windows 64\Descargas\CURSOS\MICROSOFT MATERIAL\Certifiacion para CSharp Basic\Primerproyecto\bin\Debug\net8.0\Primerproyecto.exe
+D:\Windows 64\Descargas\CURSOS\MICROSOFT MATERIAL\Certifiacion para CSharp Basic\Primerproyecto\bin\Debug\net8.0\Primerproyecto.deps.json
+D:\Windows 64\Descargas\CURSOS\MICROSOFT MATERIAL\Certifiacion para CSharp Basic\Primerproyecto\bin\Debug\net8.0\Primerproyecto.runtimeconfig.json
+D:\Windows 64\Descargas\CURSOS\MICROSOFT MATERIAL\Certifiacion para CSharp Basic\Primerproyecto\bin\Debug\net8.0\Primerproyecto.dll
+D:\Windows 64\Descargas\CURSOS\MICROSOFT MATERIAL\Certifiacion para CSharp Basic\Primerproyecto\bin\Debug\net8.0\Primerproyecto.pdb
+D:\Windows 64\Descargas\CURSOS\MICROSOFT MATERIAL\Certifiacion para CSharp Basic\Primerproyecto\obj\Debug\net8.0\Primerproyecto.GeneratedMSBuildEditorConfig.editorconfig
+D:\Windows 64\Descargas\CURSOS\MICROSOFT MATERIAL\Certifiacion para CSharp Basic\Primerproyecto\obj\Debug\net8.0\Primerproyecto.AssemblyInfoInputs.cache
+D:\Windows 64\Descargas\CURSOS\MICROSOFT MATERIAL\Certifiacion para CSharp Basic\Primerproyecto\obj\Debug\net8.0\Primerproyecto.AssemblyInfo.cs
+D:\Windows 64\Descargas\CURSOS\MICROSOFT MATERIAL\Certifiacion para CSharp Basic\Primerproyecto\obj\Debug\net8.0\Primerproyecto.csproj.CoreCompileInputs.cache
+D:\Windows 64\Descargas\CURSOS\MICROSOFT MATERIAL\Certifiacion para CSharp Basic\Primerproyecto\obj\Debug\net8.0\Primerproyecto.dll
+D:\Windows 64\Descargas\CURSOS\MICROSOFT MATERIAL\Certifiacion para CSharp Basic\Primerproyecto\obj\Debug\net8.0\refint\Primerproyecto.dll
+D:\Windows 64\Descargas\CURSOS\MICROSOFT MATERIAL\Certifiacion para CSharp Basic\Primerproyecto\obj\Debug\net8.0\Primerproyecto.pdb
+D:\Windows 64\Descargas\CURSOS\MICROSOFT MATERIAL\Certifiacion para CSharp Basic\Primerproyecto\obj\Debug\net8.0\Primerproyecto.genruntimeconfig.cache
+D:\Windows 64\Descargas\CURSOS\MICROSOFT MATERIAL\Certifiacion para CSharp Basic\Primerproyecto\obj\Debug\net8.0\ref\Primerproyecto.dll
