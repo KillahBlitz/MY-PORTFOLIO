@@ -1,6 +1,0 @@
-# Cabecera no necesaria
-# Otra línea que no queremos
-nombre;edad;ciudad
-Carlos;40;Sevilla
-María;30;Bilbao
-Elena;25;Alicante
