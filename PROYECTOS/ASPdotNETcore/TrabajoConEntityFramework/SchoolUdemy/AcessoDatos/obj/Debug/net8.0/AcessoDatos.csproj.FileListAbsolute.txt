@@ -1,0 +1,14 @@
+C:\Users\fach7\Downloads\TRANSCURSO DE CURSOS\Desarrollo web Full Stack con ASP.NET\Entity Framework\SchoolUdemy\AcessoDatos\bin\Debug\net8.0\AcessoDatos.deps.json
+C:\Users\fach7\Downloads\TRANSCURSO DE CURSOS\Desarrollo web Full Stack con ASP.NET\Entity Framework\SchoolUdemy\AcessoDatos\bin\Debug\net8.0\AcessoDatos.runtimeconfig.json
+C:\Users\fach7\Downloads\TRANSCURSO DE CURSOS\Desarrollo web Full Stack con ASP.NET\Entity Framework\SchoolUdemy\AcessoDatos\bin\Debug\net8.0\AcessoDatos.dll
+C:\Users\fach7\Downloads\TRANSCURSO DE CURSOS\Desarrollo web Full Stack con ASP.NET\Entity Framework\SchoolUdemy\AcessoDatos\bin\Debug\net8.0\AcessoDatos.pdb
+C:\Users\fach7\Downloads\TRANSCURSO DE CURSOS\Desarrollo web Full Stack con ASP.NET\Entity Framework\SchoolUdemy\AcessoDatos\obj\Debug\net8.0\AcessoDatos.csproj.AssemblyReference.cache
+C:\Users\fach7\Downloads\TRANSCURSO DE CURSOS\Desarrollo web Full Stack con ASP.NET\Entity Framework\SchoolUdemy\AcessoDatos\obj\Debug\net8.0\AcessoDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fach7\Downloads\TRANSCURSO DE CURSOS\Desarrollo web Full Stack con ASP.NET\Entity Framework\SchoolUdemy\AcessoDatos\obj\Debug\net8.0\AcessoDatos.AssemblyInfoInputs.cache
+C:\Users\fach7\Downloads\TRANSCURSO DE CURSOS\Desarrollo web Full Stack con ASP.NET\Entity Framework\SchoolUdemy\AcessoDatos\obj\Debug\net8.0\AcessoDatos.AssemblyInfo.cs
+C:\Users\fach7\Downloads\TRANSCURSO DE CURSOS\Desarrollo web Full Stack con ASP.NET\Entity Framework\SchoolUdemy\AcessoDatos\obj\Debug\net8.0\AcessoDatos.csproj.CoreCompileInputs.cache
+C:\Users\fach7\Downloads\TRANSCURSO DE CURSOS\Desarrollo web Full Stack con ASP.NET\Entity Framework\SchoolUdemy\AcessoDatos\obj\Debug\net8.0\AcessoDatos.dll
+C:\Users\fach7\Downloads\TRANSCURSO DE CURSOS\Desarrollo web Full Stack con ASP.NET\Entity Framework\SchoolUdemy\AcessoDatos\obj\Debug\net8.0\refint\AcessoDatos.dll
+C:\Users\fach7\Downloads\TRANSCURSO DE CURSOS\Desarrollo web Full Stack con ASP.NET\Entity Framework\SchoolUdemy\AcessoDatos\obj\Debug\net8.0\AcessoDatos.pdb
+C:\Users\fach7\Downloads\TRANSCURSO DE CURSOS\Desarrollo web Full Stack con ASP.NET\Entity Framework\SchoolUdemy\AcessoDatos\obj\Debug\net8.0\AcessoDatos.genruntimeconfig.cache
+C:\Users\fach7\Downloads\TRANSCURSO DE CURSOS\Desarrollo web Full Stack con ASP.NET\Entity Framework\SchoolUdemy\AcessoDatos\obj\Debug\net8.0\ref\AcessoDatos.dll

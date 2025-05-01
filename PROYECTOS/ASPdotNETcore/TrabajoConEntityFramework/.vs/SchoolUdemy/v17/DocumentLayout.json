@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\fach7\\Downloads\\TRANSCURSO DE CURSOS\\Desarrollo web Full Stack con ASP.NET\\Entity Framework\\SchoolUdemy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{95F9577B-B5DD-4688-8137-27782F234529}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\fach7\\downloads\\transcurso de cursos\\desarrollo web full stack con asp.net\\entity framework\\schooludemy\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95F9577B-B5DD-4688-8137-27782F234529}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FD1B5D9-9426-4947-B21D-223F30D03228}|AcessoDatos\\AcessoDatos.csproj|c:\\users\\fach7\\downloads\\transcurso de cursos\\desarrollo web full stack con asp.net\\entity framework\\schooludemy\\acessodatos\\operaciones\\alumnodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FD1B5D9-9426-4947-B21D-223F30D03228}|AcessoDatos\\AcessoDatos.csproj|solutionrelative:acessodatos\\operaciones\\alumnodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FD1B5D9-9426-4947-B21D-223F30D03228}|AcessoDatos\\AcessoDatos.csproj|c:\\users\\fach7\\downloads\\transcurso de cursos\\desarrollo web full stack con asp.net\\entity framework\\schooludemy\\acessodatos\\models\\alumnoasignatura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FD1B5D9-9426-4947-B21D-223F30D03228}|AcessoDatos\\AcessoDatos.csproj|solutionrelative:acessodatos\\models\\alumnoasignatura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AlumnoAsignatura.cs",
+              "DocumentMoniker": "C:\\Users\\fach7\\Downloads\\TRANSCURSO DE CURSOS\\Desarrollo web Full Stack con ASP.NET\\Entity Framework\\SchoolUdemy\\AcessoDatos\\Models\\AlumnoAsignatura.cs",
+              "RelativeDocumentMoniker": "AcessoDatos\\Models\\AlumnoAsignatura.cs",
+              "ToolTip": "C:\\Users\\fach7\\Downloads\\TRANSCURSO DE CURSOS\\Desarrollo web Full Stack con ASP.NET\\Entity Framework\\SchoolUdemy\\AcessoDatos\\Models\\AlumnoAsignatura.cs",
+              "RelativeToolTip": "AcessoDatos\\Models\\AlumnoAsignatura.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T12:14:03.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\fach7\\Downloads\\TRANSCURSO DE CURSOS\\Desarrollo web Full Stack con ASP.NET\\Entity Framework\\SchoolUdemy\\ConsoleApp1\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
+              "ToolTip": "C:\\Users\\fach7\\Downloads\\TRANSCURSO DE CURSOS\\Desarrollo web Full Stack con ASP.NET\\Entity Framework\\SchoolUdemy\\ConsoleApp1\\Program.cs",
+              "RelativeToolTip": "ConsoleApp1\\Program.cs",
+              "ViewState": "AgIAAMkAAAAAAAAAAAAgwOcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T17:20:32.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AlumnoDAO.cs",
+              "DocumentMoniker": "C:\\Users\\fach7\\Downloads\\TRANSCURSO DE CURSOS\\Desarrollo web Full Stack con ASP.NET\\Entity Framework\\SchoolUdemy\\AcessoDatos\\Operaciones\\AlumnoDAO.cs",
+              "RelativeDocumentMoniker": "AcessoDatos\\Operaciones\\AlumnoDAO.cs",
+              "ToolTip": "C:\\Users\\fach7\\Downloads\\TRANSCURSO DE CURSOS\\Desarrollo web Full Stack con ASP.NET\\Entity Framework\\SchoolUdemy\\AcessoDatos\\Operaciones\\AlumnoDAO.cs",
+              "RelativeToolTip": "AcessoDatos\\Operaciones\\AlumnoDAO.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAuwIsAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T17:08:25.01Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
