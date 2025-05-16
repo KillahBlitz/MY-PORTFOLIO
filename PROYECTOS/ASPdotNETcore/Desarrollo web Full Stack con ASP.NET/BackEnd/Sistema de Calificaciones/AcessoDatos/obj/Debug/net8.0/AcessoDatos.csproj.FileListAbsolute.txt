@@ -40,3 +40,18 @@ C:\Users\fach7\Downloads\TRANSCURSO DE CURSOS\Desarrollo web Full Stack con ASP.
 C:\Users\fach7\Downloads\TRANSCURSO DE CURSOS\Desarrollo web Full Stack con ASP.NET\BackEnd\Sistema de Calificaciones\AcessoDatos\obj\Debug\net8.0\AcessoDatos.pdb
 C:\Users\fach7\Downloads\TRANSCURSO DE CURSOS\Desarrollo web Full Stack con ASP.NET\BackEnd\Sistema de Calificaciones\AcessoDatos\obj\Debug\net8.0\AcessoDatos.genruntimeconfig.cache
 C:\Users\fach7\Downloads\TRANSCURSO DE CURSOS\Desarrollo web Full Stack con ASP.NET\BackEnd\Sistema de Calificaciones\AcessoDatos\obj\Debug\net8.0\ref\AcessoDatos.dll
+D:\Windows 64\Documentos\GitHub\MY-PORTFOLIO\PROYECTOS\ASPdotNETcore\Desarrollo web Full Stack con ASP.NET\BackEnd\Sistema de Calificaciones\AcessoDatos\bin\Debug\net8.0\AcessoDatos.deps.json
+D:\Windows 64\Documentos\GitHub\MY-PORTFOLIO\PROYECTOS\ASPdotNETcore\Desarrollo web Full Stack con ASP.NET\BackEnd\Sistema de Calificaciones\AcessoDatos\bin\Debug\net8.0\AcessoDatos.runtimeconfig.json
+D:\Windows 64\Documentos\GitHub\MY-PORTFOLIO\PROYECTOS\ASPdotNETcore\Desarrollo web Full Stack con ASP.NET\BackEnd\Sistema de Calificaciones\AcessoDatos\bin\Debug\net8.0\AcessoDatos.dll
+D:\Windows 64\Documentos\GitHub\MY-PORTFOLIO\PROYECTOS\ASPdotNETcore\Desarrollo web Full Stack con ASP.NET\BackEnd\Sistema de Calificaciones\AcessoDatos\bin\Debug\net8.0\AcessoDatos.pdb
+D:\Windows 64\Documentos\GitHub\MY-PORTFOLIO\PROYECTOS\ASPdotNETcore\Desarrollo web Full Stack con ASP.NET\BackEnd\Sistema de Calificaciones\AcessoDatos\obj\Debug\net8.0\AcessoDatos.csproj.AssemblyReference.cache
+D:\Windows 64\Documentos\GitHub\MY-PORTFOLIO\PROYECTOS\ASPdotNETcore\Desarrollo web Full Stack con ASP.NET\BackEnd\Sistema de Calificaciones\AcessoDatos\obj\Debug\net8.0\AcessoDatos.GeneratedMSBuildEditorConfig.editorconfig
+D:\Windows 64\Documentos\GitHub\MY-PORTFOLIO\PROYECTOS\ASPdotNETcore\Desarrollo web Full Stack con ASP.NET\BackEnd\Sistema de Calificaciones\AcessoDatos\obj\Debug\net8.0\AcessoDatos.AssemblyInfoInputs.cache
+D:\Windows 64\Documentos\GitHub\MY-PORTFOLIO\PROYECTOS\ASPdotNETcore\Desarrollo web Full Stack con ASP.NET\BackEnd\Sistema de Calificaciones\AcessoDatos\obj\Debug\net8.0\AcessoDatos.AssemblyInfo.cs
+D:\Windows 64\Documentos\GitHub\MY-PORTFOLIO\PROYECTOS\ASPdotNETcore\Desarrollo web Full Stack con ASP.NET\BackEnd\Sistema de Calificaciones\AcessoDatos\obj\Debug\net8.0\AcessoDatos.csproj.CoreCompileInputs.cache
+D:\Windows 64\Documentos\GitHub\MY-PORTFOLIO\PROYECTOS\ASPdotNETcore\Desarrollo web Full Stack con ASP.NET\BackEnd\Sistema de Calificaciones\AcessoDatos\obj\Debug\net8.0\AcessoDatos.sourcelink.json
+D:\Windows 64\Documentos\GitHub\MY-PORTFOLIO\PROYECTOS\ASPdotNETcore\Desarrollo web Full Stack con ASP.NET\BackEnd\Sistema de Calificaciones\AcessoDatos\obj\Debug\net8.0\AcessoDatos.dll
+D:\Windows 64\Documentos\GitHub\MY-PORTFOLIO\PROYECTOS\ASPdotNETcore\Desarrollo web Full Stack con ASP.NET\BackEnd\Sistema de Calificaciones\AcessoDatos\obj\Debug\net8.0\refint\AcessoDatos.dll
+D:\Windows 64\Documentos\GitHub\MY-PORTFOLIO\PROYECTOS\ASPdotNETcore\Desarrollo web Full Stack con ASP.NET\BackEnd\Sistema de Calificaciones\AcessoDatos\obj\Debug\net8.0\AcessoDatos.pdb
+D:\Windows 64\Documentos\GitHub\MY-PORTFOLIO\PROYECTOS\ASPdotNETcore\Desarrollo web Full Stack con ASP.NET\BackEnd\Sistema de Calificaciones\AcessoDatos\obj\Debug\net8.0\AcessoDatos.genruntimeconfig.cache
+D:\Windows 64\Documentos\GitHub\MY-PORTFOLIO\PROYECTOS\ASPdotNETcore\Desarrollo web Full Stack con ASP.NET\BackEnd\Sistema de Calificaciones\AcessoDatos\obj\Debug\net8.0\ref\AcessoDatos.dll
