@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fach7\\Downloads\\TRANSCURSO DE CURSOS\\Desarrollo web Full Stack con ASP.NET\\BackEnd\\Sistema de Calificaciones\\AcessoDatos\\AcessoDatos.csproj": {}
+    "D:\\Windows 64\\Documentos\\GitHub\\MY-PORTFOLIO\\PROYECTOS\\ASPdotNETcore\\Desarrollo web Full Stack con ASP.NET\\BackEnd\\Sistema de Calificaciones\\AcessoDatos\\AcessoDatos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fach7\\Downloads\\TRANSCURSO DE CURSOS\\Desarrollo web Full Stack con ASP.NET\\BackEnd\\Sistema de Calificaciones\\AcessoDatos\\AcessoDatos.csproj": {
+    "D:\\Windows 64\\Documentos\\GitHub\\MY-PORTFOLIO\\PROYECTOS\\ASPdotNETcore\\Desarrollo web Full Stack con ASP.NET\\BackEnd\\Sistema de Calificaciones\\AcessoDatos\\AcessoDatos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fach7\\Downloads\\TRANSCURSO DE CURSOS\\Desarrollo web Full Stack con ASP.NET\\BackEnd\\Sistema de Calificaciones\\AcessoDatos\\AcessoDatos.csproj",
+        "projectUniqueName": "D:\\Windows 64\\Documentos\\GitHub\\MY-PORTFOLIO\\PROYECTOS\\ASPdotNETcore\\Desarrollo web Full Stack con ASP.NET\\BackEnd\\Sistema de Calificaciones\\AcessoDatos\\AcessoDatos.csproj",
         "projectName": "AcessoDatos",
-        "projectPath": "C:\\Users\\fach7\\Downloads\\TRANSCURSO DE CURSOS\\Desarrollo web Full Stack con ASP.NET\\BackEnd\\Sistema de Calificaciones\\AcessoDatos\\AcessoDatos.csproj",
-        "packagesPath": "C:\\Users\\fach7\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fach7\\Downloads\\TRANSCURSO DE CURSOS\\Desarrollo web Full Stack con ASP.NET\\BackEnd\\Sistema de Calificaciones\\AcessoDatos\\obj\\",
+        "projectPath": "D:\\Windows 64\\Documentos\\GitHub\\MY-PORTFOLIO\\PROYECTOS\\ASPdotNETcore\\Desarrollo web Full Stack con ASP.NET\\BackEnd\\Sistema de Calificaciones\\AcessoDatos\\AcessoDatos.csproj",
+        "packagesPath": "C:\\Users\\Akeshi\\.nuget\\packages\\",
+        "outputPath": "D:\\Windows 64\\Documentos\\GitHub\\MY-PORTFOLIO\\PROYECTOS\\ASPdotNETcore\\Desarrollo web Full Stack con ASP.NET\\BackEnd\\Sistema de Calificaciones\\AcessoDatos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "D:\\Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\fach7\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Akeshi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -45,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -88,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
