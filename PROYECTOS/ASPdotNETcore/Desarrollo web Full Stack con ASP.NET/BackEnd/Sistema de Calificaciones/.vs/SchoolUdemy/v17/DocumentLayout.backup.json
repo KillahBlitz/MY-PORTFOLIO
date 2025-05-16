@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "D:\\Windows 64\\Documentos\\GitHub\\MY-PORTFOLIO\\PROYECTOS\\ASPdotNETcore\\Desarrollo web Full Stack con ASP.NET\\BackEnd\\Sistema de Calificaciones\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5EDCF773-A1C1-424C-97A2-FFD56B82FD8B}|WebApi\\WebApi.csproj|d:\\windows 64\\documentos\\github\\my-portfolio\\proyectos\\aspdotnetcore\\desarrollo web full stack con asp.net\\backend\\sistema de calificaciones\\webapi\\controllers\\profesorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5EDCF773-A1C1-424C-97A2-FFD56B82FD8B}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\profesorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5EDCF773-A1C1-424C-97A2-FFD56B82FD8B}|WebApi\\WebApi.csproj|d:\\windows 64\\documentos\\github\\my-portfolio\\proyectos\\aspdotnetcore\\desarrollo web full stack con asp.net\\backend\\sistema de calificaciones\\webapi\\controllers\\alumnocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EDCF773-A1C1-424C-97A2-FFD56B82FD8B}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\alumnocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3FD1B5D9-9426-4947-B21D-223F30D03228}|AcessoDatos\\AcessoDatos.csproj|d:\\windows 64\\documentos\\github\\my-portfolio\\proyectos\\aspdotnetcore\\desarrollo web full stack con asp.net\\backend\\sistema de calificaciones\\acessodatos\\operaciones\\alumnodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3FD1B5D9-9426-4947-B21D-223F30D03228}|AcessoDatos\\AcessoDatos.csproj|solutionrelative:acessodatos\\operaciones\\alumnodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5EDCF773-A1C1-424C-97A2-FFD56B82FD8B}|WebApi\\WebApi.csproj|d:\\windows 64\\documentos\\github\\my-portfolio\\proyectos\\aspdotnetcore\\desarrollo web full stack con asp.net\\backend\\sistema de calificaciones\\webapi\\controllers\\alumnocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5EDCF773-A1C1-424C-97A2-FFD56B82FD8B}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\alumnocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,20 +18,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProfesorController.cs",
-              "DocumentMoniker": "D:\\Windows 64\\Documentos\\GitHub\\MY-PORTFOLIO\\PROYECTOS\\ASPdotNETcore\\Desarrollo web Full Stack con ASP.NET\\BackEnd\\Sistema de Calificaciones\\WebApi\\Controllers\\ProfesorController.cs",
-              "RelativeDocumentMoniker": "WebApi\\Controllers\\ProfesorController.cs",
-              "ToolTip": "D:\\Windows 64\\Documentos\\GitHub\\MY-PORTFOLIO\\PROYECTOS\\ASPdotNETcore\\Desarrollo web Full Stack con ASP.NET\\BackEnd\\Sistema de Calificaciones\\WebApi\\Controllers\\ProfesorController.cs",
-              "RelativeToolTip": "WebApi\\Controllers\\ProfesorController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T06:44:38.704Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
@@ -51,18 +38,14 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "AlumnoController.cs",
               "DocumentMoniker": "D:\\Windows 64\\Documentos\\GitHub\\MY-PORTFOLIO\\PROYECTOS\\ASPdotNETcore\\Desarrollo web Full Stack con ASP.NET\\BackEnd\\Sistema de Calificaciones\\WebApi\\Controllers\\AlumnoController.cs",
               "RelativeDocumentMoniker": "WebApi\\Controllers\\AlumnoController.cs",
               "ToolTip": "D:\\Windows 64\\Documentos\\GitHub\\MY-PORTFOLIO\\PROYECTOS\\ASPdotNETcore\\Desarrollo web Full Stack con ASP.NET\\BackEnd\\Sistema de Calificaciones\\WebApi\\Controllers\\AlumnoController.cs",
               "RelativeToolTip": "WebApi\\Controllers\\AlumnoController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAgwCIAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-02T16:06:22.469Z",
               "EditorCaption": ""
