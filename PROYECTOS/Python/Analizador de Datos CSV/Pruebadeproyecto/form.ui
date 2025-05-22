@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1432</width>
-    <height>636</height>
+    <height>720</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -37,21 +37,21 @@
     <rect>
      <x>40</x>
      <y>60</y>
-     <width>1051</width>
-     <height>421</height>
+     <width>981</width>
+     <height>451</height>
     </rect>
    </property>
   </widget>
-  <widget class="QWidget" name="horizontalLayoutWidget">
+  <widget class="QWidget" name="verticalLayoutWidget">
    <property name="geometry">
     <rect>
-     <x>40</x>
-     <y>530</y>
-     <width>451</width>
-     <height>51</height>
+     <x>940</x>
+     <y>590</y>
+     <width>82</width>
+     <height>71</height>
     </rect>
    </property>
-   <layout class="QHBoxLayout" name="horizontalLayout">
+   <layout class="QVBoxLayout" name="verticalLayout">
     <item>
      <widget class="QPushButton" name="buttoncsv">
       <property name="text">
@@ -60,34 +60,296 @@
      </widget>
     </item>
     <item>
-     <widget class="QPushButton" name="buttoncsv_5">
+     <widget class="QPushButton" name="buttonsalir">
       <property name="text">
-       <string>Graficar</string>
-      </property>
-     </widget>
-    </item>
-    <item>
-     <widget class="QPushButton" name="buttoncsv_4">
-      <property name="text">
-       <string>Graficar</string>
-      </property>
-     </widget>
-    </item>
-    <item>
-     <widget class="QPushButton" name="buttoncsv_3">
-      <property name="text">
-       <string>Graficar</string>
-      </property>
-     </widget>
-    </item>
-    <item>
-     <widget class="QPushButton" name="buttoncsv_2">
-      <property name="text">
-       <string>Graficar</string>
+       <string>Salir</string>
       </property>
      </widget>
     </item>
    </layout>
+  </widget>
+  <widget class="QWidget" name="widgetopciones" native="true">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>530</y>
+     <width>601</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <widget class="QPushButton" name="buttonbusqueda">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>120</y>
+      <width>81</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Aplicar</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_3">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>0</y>
+      <width>201</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticallayoutopciones">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_5">
+       <item>
+        <widget class="QLabel" name="LabelFechas_4">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <property name="font">
+          <font>
+           <family>MS Outlook</family>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Selecciona que se busca</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignmentFlag::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="checkmax">
+         <property name="text">
+          <string>Mejor Pico</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="checkmin">
+         <property name="text">
+          <string>Peor Pico</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="checkm">
+         <property name="text">
+          <string>Media y Mediana</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_6">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>241</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticallayoutseleccion">
+     <item>
+      <widget class="QLabel" name="LabelFechas_5">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="font">
+        <font>
+         <family>MS Outlook</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Seleccione el inicio del intervalo</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="LabelFechas_6">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="font">
+        <font>
+         <family>MS Outlook</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>año</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboboxanio">
+       <property name="placeholderText">
+        <string>Selecciona el año</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="LabelFechas_7">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="font">
+        <font>
+         <family>MS Outlook</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>mes</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboboxmes">
+       <property name="currentText">
+        <string/>
+       </property>
+       <property name="placeholderText">
+        <string>Selecciona el mes</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="widgetseleccion" native="true">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>530</y>
+     <width>241</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <widget class="QWidget" name="verticalLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>241</width>
+      <height>137</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QLabel" name="LabelFechas">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="font">
+        <font>
+         <family>MS Outlook</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Seleccionar intervalo</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_6">
+       <item>
+        <widget class="QRadioButton" name="radiobuttononeanio">
+         <property name="text">
+          <string>Por año</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="radiobuttononemes">
+         <property name="text">
+          <string>Por mes</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="buttonseleccion">
+         <property name="text">
+          <string>Aplicar</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="widgetResultados" native="true">
+   <property name="geometry">
+    <rect>
+     <x>1040</x>
+     <y>70</y>
+     <width>221</width>
+     <height>441</height>
+    </rect>
+   </property>
+   <widget class="QLabel" name="LabelMaximo">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>10</y>
+      <width>221</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Maximo:</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignLeading|Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignTop</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="LabelMinimo">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>160</y>
+      <width>221</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Minimo:</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignLeading|Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignTop</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="LabelM">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>330</y>
+      <width>221</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Media y Mediana:</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignLeading|Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignTop</set>
+    </property>
+   </widget>
   </widget>
  </widget>
  <resources/>

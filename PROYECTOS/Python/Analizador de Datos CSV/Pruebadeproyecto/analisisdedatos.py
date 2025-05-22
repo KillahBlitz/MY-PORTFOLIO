@@ -1,6 +1,6 @@
 import sys
-from PySide6.QtWidgets import QApplication, QWidget, QFileDialog, QMessageBox, QVBoxLayout, QLabel
 from ui_form import Ui_AnalisisdeDatos
+from PySide6.QtWidgets import QApplication, QWidget, QFileDialog, QMessageBox, QVBoxLayout
 
 #librerias empleadas para analisis de datos
 import pandas as pd
@@ -8,17 +8,23 @@ import pandas as pd
 from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
 from matplotlib.figure import Figure
 
-
-
 class AnalisisdeDatos(QWidget):
     def __init__(self, parent=None):
         super().__init__(parent)
         self.ui = Ui_AnalisisdeDatos()
         self.ui.setupUi(self)
 
+        self.ui.widgetResultados.hide()
+        self.ui.widgetopciones.hide()
+        self.ui.widgetseleccion.hide()
+
         self.ui.buttoncsv.setText("Cargar CSV")
         self.ui.buttoncsv.clicked.connect(self.cargar_csv)
-
+        self.ui.buttonsalir.setText("Salir")
+        self.ui.buttonsalir.clicked.connect(self.close)
+        self.ui.buttonseleccion.setText("Seleccionar")
+        self.ui.buttonseleccion.clicked.connect(self.marcarseleccion)
+        self.ui.buttonbusqueda.clicked.connect(self.recorteygraficacion)
 
     #funcion de cargar el archivo
     def cargar_csv(self):
@@ -34,6 +40,7 @@ class AnalisisdeDatos(QWidget):
         if archivo: #pregunto si existe archivo
             try: #intento hacer el proceso de leer el archivo
                 df = pd.read_csv(archivo)
+                global df_clean
                 df_clean = pd.DataFrame()  # Inicializar df_clean como un DataFrame vacío
 
                 # Buscar columna de fecha y crear df_clean
@@ -43,7 +50,7 @@ class AnalisisdeDatos(QWidget):
                         df_clean = pd.DataFrame({col: convertida})
                         df_clean.rename(columns={col: "Date"}, inplace=True)
                         break
-                
+
                 columnacantidad = None #columna auxiliar
                 for col in df.columns: #recorro las columnas de df
                     col_lower = col.lower() #guardo la columna en una variable
@@ -82,6 +89,7 @@ class AnalisisdeDatos(QWidget):
 
                 # 4. Confirmar carga exitosa
                 QMessageBox.information(self, "Éxito", f"Archivo cargado con {len(df_clean)} filas.")
+                self.ui.widgetseleccion.show()
                 print("DataFrame limpio:")
                 print(df_clean.head())
                 # 5. Imprimir gráfica
@@ -92,6 +100,110 @@ class AnalisisdeDatos(QWidget):
             except Exception as e:
                 QMessageBox.critical(self, "Error", f"No se pudo cargar el archivo:\n{e}") #mensaje de error
 
+
+
+    def marcarseleccion(self):
+        global seleccion, anios, anio, meses, mes
+        meses = ['Enero','febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre']
+        anios = df_clean['Date'].dt.year.unique()
+
+        self.ui.widgetopciones.show()
+        
+        if(self.ui.radiobuttononeanio.isChecked()):
+            seleccion = 1
+            print("se selecciono por anio")
+            #limpiar el combobox de meses y anios para que no se repitan en la reseleccion
+            self.ui.comboboxanio.clear()
+            self.ui.comboboxmes.clear()
+            #cambiar el texto del combobox de meses
+            self.ui.comboboxmes.setPlaceholderText("No se puede seleccionar mes")
+            self.ui.comboboxanio.addItems(anios.astype(str).tolist())
+        elif(self.ui.radiobuttononemes.isChecked()):
+            seleccion = 2
+            print("se selecciono por mes")
+            #limpiar el combobox de meses y anios para que no se repitan en la reseleccion
+            self.ui.comboboxanio.clear()
+            self.ui.comboboxmes.clear()
+            self.ui.comboboxmes.setPlaceholderText("Seleccione un mes")
+            self.ui.comboboxanio.addItems(anios.astype(str).tolist())
+            self.ui.comboboxmes.addItems(meses)
+
+
+
+
+
+    def recorteygraficacion(self):
+        self.ui.widgetResultados.show()
+        anio = self.ui.comboboxanio.currentText()
+        mes = self.ui.comboboxmes.currentText()
+        print(seleccion)
+        print(anios)
+        print(meses)
+
+        # Convertir el año y mes a enteros
+        anio = int(anio)
+        nombres_semanas = ["primera", "segunda", "tercera", "cuarta", "quinta"]
+        if(mes == ""):
+            mes = 0
+        else:
+            mes = meses.index(mes) + 1
+
+        print(mes)
+        print(anio)
+
+
+        if(seleccion == 1):
+            # Filtrar solo por el año seleccionado
+            mes = 0
+            df_new = df_clean[df_clean['Date'].dt.year == anio]
+        else:
+            # Filtrar por año y mes exactos seleccionados
+            df_new = df_clean[(df_clean['Date'].dt.year == anio) & (df_clean['Date'].dt.month == mes)]
+
+        self.imprimir_grafica(df_new, "recorte por anio")
+
+        if(self.ui.checkmax.isChecked()):
+            print("se selecciono el maximo")
+            max = df_new['cantidad'].max()
+            #recuperar el dia exacto de cuando fue el maximo
+            fila_max = df_new.loc[df_new['cantidad'] == max].iloc[0]
+            fecha_max = fila_max['Date']
+            dia_max = fecha_max.strftime('%Y-%m-%d')
+            semana = self.obtener_semana_del_mes(dia_max)
+            nombre_semana = nombres_semanas[semana - 1]
+            nombre_mes = meses[fecha_max.month - 1]
+
+            self.ui.LabelMaximo.setText(f"MAXIMO\nEl maximo de la grafica es: {max}\nFue el dia: {dia_max}\nFue en la {nombre_semana} semana de {nombre_mes}")
+        else:
+            self.ui.LabelMaximo.setText(f"no se consulto el maximo")
+
+        if(self.ui.checkmin.isChecked()):
+            print("se selecciono el minimo")
+            min = df_new['cantidad'].min()
+            #recuperar el dia exacto de cuando fue el minimo
+            fila_min = df_new.loc[df_new['cantidad'] == min].iloc[0]
+            fecha_min = fila_min['Date']
+            dia_min = fecha_min.strftime('%Y-%m-%d')
+            semana = self.obtener_semana_del_mes(fecha_min)
+            nombre_semana = nombres_semanas[semana - 1]
+            nombre_mes = meses[fecha_min.month - 1]
+            self.ui.LabelMinimo.setText(f"MINIMO\nEl minimo de la grafica es: {max}\nFue el dia: {dia_min}\nFue en la {nombre_semana} semana de {nombre_mes}")
+        else:
+            self.ui.LabelMinimo.setText(f"No se consulto el minimo")
+
+        if(self.ui.checkm.isChecked()):
+            print("se selecciono media y mediana")
+            media = df_new['cantidad'].mean()
+            mediana = df_new['cantidad'].median()
+            self.ui.LabelM.setText(f"MEDIA Y MEDIANA\nLa media es: {media} \nLa mediana es: {mediana}")
+        else:
+            self.ui.LabelM.setText(f"No se consulto la media y la mediana")
+
+    def obtener_semana_del_mes(self, fecha):
+        if isinstance(fecha, str):
+            fecha = pd.to_datetime(fecha)
+        dia = fecha.day
+        return (dia - 1) // 7 + 1
 
     #funcion para imprimir la grafica
     def imprimir_grafica(self, df, namearch):
