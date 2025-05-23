@@ -130,10 +130,10 @@ class Ui_AnalisisdeDatos(object):
 
         self.widgetseleccion = QWidget(AnalisisdeDatos)
         self.widgetseleccion.setObjectName(u"widgetseleccion")
-        self.widgetseleccion.setGeometry(QRect(40, 530, 241, 141))
+        self.widgetseleccion.setGeometry(QRect(40, 530, 241, 151))
         self.verticalLayoutWidget_2 = QWidget(self.widgetseleccion)
         self.verticalLayoutWidget_2.setObjectName(u"verticalLayoutWidget_2")
-        self.verticalLayoutWidget_2.setGeometry(QRect(0, 0, 241, 137))
+        self.verticalLayoutWidget_2.setGeometry(QRect(0, 0, 241, 141))
         self.verticalLayout_2 = QVBoxLayout(self.verticalLayoutWidget_2)
         self.verticalLayout_2.setObjectName(u"verticalLayout_2")
         self.verticalLayout_2.setContentsMargins(0, 0, 0, 0)
@@ -156,6 +156,11 @@ class Ui_AnalisisdeDatos(object):
         self.radiobuttononemes.setObjectName(u"radiobuttononemes")
 
         self.verticalLayout_6.addWidget(self.radiobuttononemes)
+
+        self.radiobuttonall = QRadioButton(self.verticalLayoutWidget_2)
+        self.radiobuttonall.setObjectName(u"radiobuttonall")
+
+        self.verticalLayout_6.addWidget(self.radiobuttonall)
 
         self.buttonseleccion = QPushButton(self.verticalLayoutWidget_2)
         self.buttonseleccion.setObjectName(u"buttonseleccion")
@@ -205,6 +210,7 @@ class Ui_AnalisisdeDatos(object):
         self.LabelFechas.setText(QCoreApplication.translate("AnalisisdeDatos", u"Seleccionar intervalo", None))
         self.radiobuttononeanio.setText(QCoreApplication.translate("AnalisisdeDatos", u"Por a\u00f1o", None))
         self.radiobuttononemes.setText(QCoreApplication.translate("AnalisisdeDatos", u"Por mes", None))
+        self.radiobuttonall.setText(QCoreApplication.translate("AnalisisdeDatos", u"Todo el CSV", None))
         self.buttonseleccion.setText(QCoreApplication.translate("AnalisisdeDatos", u"Aplicar", None))
         self.LabelMaximo.setText(QCoreApplication.translate("AnalisisdeDatos", u"Maximo:", None))
         self.LabelMinimo.setText(QCoreApplication.translate("AnalisisdeDatos", u"Minimo:", None))

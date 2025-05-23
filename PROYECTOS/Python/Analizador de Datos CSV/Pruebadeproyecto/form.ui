@@ -233,7 +233,7 @@
      <x>40</x>
      <y>530</y>
      <width>241</width>
-     <height>141</height>
+     <height>151</height>
     </rect>
    </property>
    <widget class="QWidget" name="verticalLayoutWidget_2">
@@ -242,7 +242,7 @@
       <x>0</x>
       <y>0</y>
       <width>241</width>
-      <height>137</height>
+      <height>141</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout_2">
@@ -278,6 +278,13 @@
         <widget class="QRadioButton" name="radiobuttononemes">
          <property name="text">
           <string>Por mes</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="radiobuttonall">
+         <property name="text">
+          <string>Todo el CSV</string>
          </property>
         </widget>
        </item>
